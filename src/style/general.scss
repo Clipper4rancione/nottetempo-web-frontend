@@ -11,3 +11,16 @@ a{
     text-decoration: none;
     color: white;
 }
+
+//GENERAL LIST STYLES
+
+ul{
+    margin: 0;
+}
+
+//WAVES SVG
+
+.waves.down {
+    transform: rotate(180deg);
+    display: block;
+  }

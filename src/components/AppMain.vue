@@ -1,25 +1,24 @@
 <script>
+import AppJumbo from "./partials/AppJumbo.vue";
+import AboutUsSection from "./partials/AboutUsSection.vue";
 export default {
   name: "AppMain",
+
+  components: {
+    AppJumbo,
+    AboutUsSection,
+  },
 };
 </script>
 
 <template>
   <main>
-    <div id="jumbotron"></div>
+    <AppJumbo />
+    <AboutUsSection />
   </main>
 </template>
 
 
 
 <style lang="scss" scoped>
-#jumbotron {
-  height: 500px;
-  width: 100%;
-  background-image: url("../assets/img/jumbo_empty_yellow.png");
-
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
 </style>

@@ -1,15 +1,33 @@
 <script>
+import StreamerCard from "./StreamerCard.vue";
 export default {
   name: "TheFounderSection",
+  components: {
+    StreamerCard,
+  },
 };
 </script>
 
 <template>
   <section class="founder_section">
     <div class="container">
-      <h2 class="text-center">I Founders</h2>
-      <div class="row">
-        <div class="col"></div>
+      <h2 class="text-center py-5">LA NOSTRA STREAMCOMP</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-3">
+          <StreamerCard />
+        </div>
+        <div class="col-3">
+          <StreamerCard />
+        </div>
+        <div class="col-3">
+          <StreamerCard />
+        </div>
+        <div class="col-3">
+          <StreamerCard />
+        </div>
+        <div class="col-3 py-3">
+          <StreamerCard />
+        </div>
       </div>
     </div>
   </section>
@@ -18,4 +36,12 @@ export default {
 
 
 <style lang="scss" scoped>
+.founder_section {
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    180deg,
+    rgba(25, 25, 25, 1) 46%,
+    rgba(42, 42, 42, 1) 86%
+  );
+}
 </style>

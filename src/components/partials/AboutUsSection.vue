@@ -25,11 +25,17 @@ export default {
               maxime voluptas sed, consectetur neque.
             </p>
           </div>
+          <div class="discord-btn btn">
+            <a href=""
+              ><i class="fa-brands fa-discord"></i> Entra nel nostro server
+              Discord!</a
+            >
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="waves down about_w">
+  <!-- <div class="waves down about_w">
     <svg
       class="wave-1hkxOo"
       version="1.1"
@@ -43,7 +49,7 @@ export default {
         fill="currentColor"
       ></path>
     </svg>
-  </div>
+  </div> -->
 </template>
 
 
@@ -63,6 +69,21 @@ export default {
 
   .about_title {
     font-size: 4rem;
+  }
+  .discord-btn {
+    background-color: #7289da;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 17px;
+
+    a:hover {
+      color: white;
+    }
+
+    i {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
   }
 }
 .waves.down.about_w {

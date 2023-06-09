@@ -5,7 +5,11 @@
 </script>
 
 <template>
+    
     <section class="contact_us_section py-5">
+        <div class="mid-row-container d-flex justify-content-center">
+            <div class="mid-row"></div>
+        </div>
     <div class="container">
         <h2 class="text-center py-5">CONTATTACI</h2>
         <form action="#" class="row">
@@ -45,5 +49,12 @@
     .form-control:focus{
         box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 8px #f3e00c;
     }
+    .mid-row{
+    border: 1px solid rgba(167, 167, 167, 0.596);
+    height: 1px;
+    width: 25%;
+  }
 }
+
+
 </style>

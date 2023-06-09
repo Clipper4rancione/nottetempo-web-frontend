@@ -32,7 +32,7 @@ export default {
             >
           </div>
           <div class="youtube-btn custom-btn btn">
-            <a href=""
+            <a href="https://www.youtube.com/@Nottetempotwitch"
               ><i class="fa-brands fa-youtube"></i> Visualizza i nostri video su YouTube</a
             >
           </div>
@@ -97,6 +97,8 @@ export default {
   .youtube-btn{
     background-color: #ff0000;
   }
+
+  
 }
 .waves.down.about_w {
   color: #dac700;

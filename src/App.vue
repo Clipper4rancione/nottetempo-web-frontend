@@ -11,12 +11,20 @@ components:{
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
-  <AppFooter />
+  <div id="page">
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </div>
+  
 </template>
 
 
 <style lang="scss">
 @import './style/general.scss';
+
+#page{
+  width: 100vw;
+  height: 100vh;
+}
 </style>

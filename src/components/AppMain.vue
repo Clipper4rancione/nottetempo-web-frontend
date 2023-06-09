@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main id="main_sec">
     <AppJumbo />
     <AboutUsSection />
     <TheFoundersSection />
@@ -27,4 +27,5 @@ export default {
 
 
 <style lang="scss" scoped>
+
 </style>

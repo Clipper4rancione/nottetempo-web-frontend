@@ -11,11 +11,15 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: white;
+}
 
 //GENERAL LIST STYLES
 
 ul{
     margin: 0;
+    list-style: none;
 }
 
 //WAVES SVG

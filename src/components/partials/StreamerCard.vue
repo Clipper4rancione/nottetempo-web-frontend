@@ -45,8 +45,8 @@ export default {
 }
 .card {
   position: relative;
-  width: 280px;
-  height: 400px;
+  width: 600px;
+  height: 370px;
   background: #f3e00c;
   display: flex;
   justify-content: center;

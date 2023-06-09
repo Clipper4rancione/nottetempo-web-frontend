@@ -2,6 +2,7 @@
 import AppJumbo from "./partials/AppJumbo.vue";
 import AboutUsSection from "./partials/AboutUsSection.vue";
 import TheFoundersSection from "./partials/TheFoundersSection.vue";
+import ContacUsSection from "./partials/ContactUsSection.vue";
 export default {
   name: "AppMain",
 
@@ -9,6 +10,7 @@ export default {
     AppJumbo,
     AboutUsSection,
     TheFoundersSection,
+    ContacUsSection,
   },
 };
 </script>
@@ -18,6 +20,7 @@ export default {
     <AppJumbo />
     <AboutUsSection />
     <TheFoundersSection />
+    <ContacUsSection />
   </main>
 </template>
 

@@ -1,25 +1,28 @@
 sfondo colore neutro grigio/grigio chiaro
 
-- SEZIONE JUMBOTRON (TITOLO CON LOGHI A SCORRIMENTO)
+- SEZIONE JUMBOTRON (TITOLO CON LOGHI A SCORRIMENTO) []
 - SEZIONE PRESENTAZIONE {
-	- BOTTONE DISCORD CON LINK D'INVITO AL SERVER [fatto ma ha bisogno di modifiche] [href link]
+	// - BOTTONE DISCORD CON LINK D'INVITO AL SERVER [fatto ma ha bisogno di modifiche]
+	- AGGIORNARE LA BIO
 }
 
 - SEZIONE STREAMERS {
 
-	- CARD PER OGNI STREAMER (ALL'HOVER SI VEDONO UN PO' DI INFO)
-	- SEZIONE ESPANDIBILE AL CLICK SUL RIQUADRO DELLA LIVE(LOGO DEL CANALE, PROGRAMMAZIONE, DETTAGLI) [da inserire in un futuro aggiornamento]
-	- 
+	// - CARD PER OGNI STREAMER (ALL'HOVER SI VEDONO UN PO' DI INFO) [fatto, aggiungere dettagli streamer] 
+	// - SEZIONE ESPANDIBILE AL CLICK SUL RIQUADRO DELLA LIVE(LOGO DEL CANALE, PROGRAMMAZIONE, DETTAGLI) [da inserire in un futuro aggiornamento]
+
 }
 
 - SEZIONE CONTATTO{
 
-	- FORM DI CONTATTO {
+	// - FORM DI CONTATTO {
 		
-		- NOME
-		- INDIRIZZO EMAIL
-		- TEXTAREA DOVE SCRIVERE IL MESSAGGIO
-		- BOTTONE SUBMIT/INVIA
+		// - NOME
+		// - INDIRIZZO EMAIL
+		// - TEXTAREA DOVE SCRIVERE IL MESSAGGIO
+		// - BOTTONE SUBMIT/INVIA
+
+		- COLLEGAMENTO AL BACKEND PER FARLO FUNZIONARE
 	}
 }
 
@@ -28,3 +31,15 @@ COLORI PAGINA
 HEADER LOGO: #1b1b1b
 SEZIONE STREAMERS (finale sfumato): #2a2a2a
 JUMBOTRON: #222222
+
+ABOUT US BIO:
+
+Benvenuto sul sito dei Nottetempo!
+
+Ma cos'è Nottetempo Network?
+L'idea è nata per una semplice e pura passione per lo streaming e per il gaming, NTN è stato fondato da 5 streamers emergenti;
+dopo essersi conosciuti su twitch il rapporto è andato oltre la semplice collaborazione tra creators, diventando vera e propria amicizia.
+Lunedì 29 maggio 2023 è saltato fuori il primo accenno di idea di Network, l'obbiettivo è creare una community di streamers forte con una
+fanbase concreta ed unita, dando l'opportunità a streamers poco conosciuti di avere la giusta visibilità per avviare il loro canale.
+
+E tu sei pronto per partire con noi sul Nottetempo?

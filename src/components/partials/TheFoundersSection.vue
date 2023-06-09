@@ -13,19 +13,19 @@ export default {
     <div class="container">
       <h2 class="text-center py-5">LA NOSTRA STREAMCOMP</h2>
       <div class="row d-flex justify-content-center">
-        <div class="col-3">
+        <div class="col-6">
           <StreamerCard />
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <StreamerCard />
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <StreamerCard />
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <StreamerCard />
         </div>
-        <div class="col-3 py-3">
+        <div class="col-6 py-3">
           <StreamerCard />
         </div>
       </div>

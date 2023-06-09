@@ -8,12 +8,12 @@ export default {
   <section class="about_us w-100 p-3">
     <div class="container d-flex">
       <div class="row">
-        <div class="col-6">
+        <div class="col-5 d-flex justify-content-center align-items-center">
           <div class="logo_big">
             <img src="/LOGO_NT_BASE.png" alt="Nottetempo Logo" />
           </div>
         </div>
-        <div class="col-6 text-black my-5">
+        <div class="col-7 text-black my-5">
           <div class="welcome_to my-3">
             <h1 class="about_title">BENVENUTO SUL NOTTETEMPO!</h1>
           </div>
@@ -25,10 +25,15 @@ export default {
               maxime voluptas sed, consectetur neque.
             </p>
           </div>
-          <div class="discord-btn btn">
+          <div class="discord-btn custom-btn btn">
             <a href=""
               ><i class="fa-brands fa-discord"></i> Entra nel nostro server
               Discord!</a
+            >
+          </div>
+          <div class="youtube-btn custom-btn btn">
+            <a href=""
+              ><i class="fa-brands fa-youtube"></i> Visualizza i nostri video su YouTube</a
             >
           </div>
         </div>
@@ -60,7 +65,7 @@ export default {
 
   .logo_big {
     width: 100%;
-
+    vertical-align: middle;
     img {
       vertical-align: middle;
       width: 65%;
@@ -70,9 +75,7 @@ export default {
   .about_title {
     font-size: 4rem;
   }
-  .discord-btn {
-    background-color: #7289da;
-    color: #fff;
+  .custom-btn{
     padding: 0.7rem 1.5rem;
     border-radius: 17px;
 
@@ -84,6 +87,15 @@ export default {
       margin-right: 8px;
       vertical-align: middle;
     }
+  }
+  .discord-btn {
+    background-color: #7289da;
+    color: #fff;
+
+    margin-right: 20px ;
+  }
+  .youtube-btn{
+    background-color: #ff0000;
   }
 }
 .waves.down.about_w {

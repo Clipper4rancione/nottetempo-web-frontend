@@ -1,6 +1,12 @@
 <script>
+import streamer from '../data/streamers';
     export default {
-        name: 'AppFooter'
+        name: 'AppFooter',
+        data(){
+            return{
+                streamer,
+            }
+        }
     }
 </script>
 
@@ -27,16 +33,8 @@
             <div class="col-2">
                 <ul>
                     <h6>I Nostri Streamers</h6>
-                    <a href="">
-                        <li>AlessioMolteni</li>
-                    </a><a href="">
-                        <li>ClipperArancione</li>
-                    </a><a href="">
-                        <li>Ikushimi</li>
-                    </a><a href="">
-                        <li>Kajyto1550</li>
-                    </a><a href="">
-                        <li>96Xander96</li>
+                    <a href="" v-for="(str, index) in streamer" :key="index">
+                        <li>{{ str.name }}</li>
                     </a>
                 </ul>
             </div>

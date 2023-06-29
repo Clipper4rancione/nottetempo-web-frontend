@@ -1,7 +1,12 @@
 <script>
+import streamers from '../../data/streamers';
+
 export default {
   name: "StreamerCard",
-};
+  props:{
+    streamer: Object,
+  },
+}
 </script>
 
 <template>
@@ -9,7 +14,7 @@ export default {
     <div class="card">
       <b></b>
       <div class="content text-center">
-        <p class="title">Some Fomous<br /><span>Creative Designer</span></p>
+        <p class="title">{{ streamer.name }}</p>
         <ul class="sci">
           <li>
             <a href="#">

@@ -1,10 +1,16 @@
 <script>
 import StreamerCard from "./StreamerCard.vue";
+import streamer from "../../data/streamers.js";
 export default {
   name: "TheFounderSection",
   components: {
     StreamerCard,
   },
+  data() {
+    return {
+      streamer,
+    }
+  }
 };
 </script>
 
@@ -13,21 +19,10 @@ export default {
     <div class="container">
       <h2 class="text-center py-5">LA NOSTRA STREAMCOMP</h2>
       <div class="row d-flex justify-content-center">
-        <div class="col-6">
-          <StreamerCard />
+        <div v-for="(item, index) in streamer" :key="index"  class="col-6">
+          <StreamerCard :streamer="item"/>
         </div>
-        <div class="col-6">
-          <StreamerCard />
-        </div>
-        <div class="col-6">
-          <StreamerCard />
-        </div>
-        <div class="col-6">
-          <StreamerCard />
-        </div>
-        <div class="col-6 py-3">
-          <StreamerCard />
-        </div>
+        
       </div>
     </div>
   </section>

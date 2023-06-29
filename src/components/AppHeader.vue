@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <header>
   <div id="navbar" class="d-flex align-items-center justify-content-center p-2">
     <div class="logo_area">
       <img src="/LOGO_NT_BASE.png" alt="Logo Nottetempo" />
@@ -18,12 +19,17 @@ export default {
       <li><a href="#">Contatti</a></li>
     </ul>
   </div>
+</header>
 </template>
 
 
 
 <style lang="scss" scoped>
-#navbar {
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  #navbar {
   //NAVBAR GRADIENT COLOR
   background: #1b1b1b;
   background: -moz-linear-gradient(top, #1b1b1b 0%, #1b1b1b 50%, #131313 100%);
@@ -70,4 +76,6 @@ export default {
     }
   }
 }
+}
+
 </style>

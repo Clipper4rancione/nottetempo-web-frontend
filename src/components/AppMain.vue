@@ -11,7 +11,7 @@ export default {
     AboutUsSection,
     TheFoundersSection,
     ContacUsSection,
-  },
+  },  
 };
 </script>
 
@@ -21,11 +21,15 @@ export default {
     <AboutUsSection />
     <TheFoundersSection />
     <ContacUsSection />
-  </main>
+  </main> 
 </template>
 
 
 
 <style lang="scss" scoped>
+  #main_sec{
 
+    // added padding for fixed header overlap
+    padding-top: 60px;
+  }
 </style>

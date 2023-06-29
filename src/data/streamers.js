@@ -9,7 +9,7 @@ export default [
         ytLink: "",
         twitchLink: "",
         tiktokLink: "",
-    }
+    },
     {
         name: "Ikushimi",
         age: 21,

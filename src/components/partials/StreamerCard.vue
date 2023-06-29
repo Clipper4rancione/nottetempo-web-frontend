@@ -1,5 +1,5 @@
 <script>
-import streamers from '../../data/streamers';
+
 
 export default {
   name: "StreamerCard",

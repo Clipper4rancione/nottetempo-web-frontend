@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <section class="founder_section">
+  <section class="founder_section" id="canali">
     <div class="container">
       <h2 class="text-center py-5">LA NOSTRA STREAMCOMP</h2>
       <div class="row d-flex justify-content-center">

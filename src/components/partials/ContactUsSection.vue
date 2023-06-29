@@ -6,7 +6,7 @@
 
 <template>
     
-    <section class="contact_us_section py-5">
+    <section class="contact_us_section py-5" id="contactUs">
         <div class="mid-row-container d-flex justify-content-center">
             <div class="mid-row"></div>
         </div>

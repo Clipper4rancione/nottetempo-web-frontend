@@ -14,9 +14,9 @@ export default {
   <div id="nav_menu">
     <ul class="d-flex align-items-center justify-content-center p-2">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Canali</a></li>
+      <li><a href="#canali">Canali</a></li>
       <li><a href="#">About Us</a></li>
-      <li><a href="#">Contatti</a></li>
+      <li><a href="#contactUs">Contatti</a></li>
     </ul>
   </div>
 </header>

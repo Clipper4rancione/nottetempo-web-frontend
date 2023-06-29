@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <section class="about_us w-100 p-3">
+  <section class="about_us w-100 p-3" id="welcome">
     <div class="container d-flex">
       <div class="row">
         <div class="col-5 d-flex justify-content-center align-items-center">
